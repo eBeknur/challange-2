@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3ebe4;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+body .all {
+  display: flex;
+}
+body .all .for-img img {
+  width: 360px;
+  height: 480px;
+  border-radius: 10px 0 0 10px;
+}
+body .all .for-texts {
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+  width: 360px;
+  height: 480px;
+}
+body .all .for-texts .p-1 {
+  padding: 25px;
+}
+body .all .for-texts .p-1 p {
+  color: #d5d5d5;
+  letter-spacing: 3px;
+  font-family: "Open Sans", sans-serif;
+}
+body .all .for-texts .h1-1 {
+  padding: 0 0 0 25px;
+}
+body .all .for-texts .h1-1 h1 {
+  font-family: "Libre Baskerville", serif;
+}
+body .all .for-texts .p-2 {
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+body .all .for-texts .p-2 P {
+  color: #d5d5d5;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+}
+body .all .for-texts .h1-2 {
+  display: flex;
+  gap: 5px;
+  padding: 0 25px 0 25px;
+}
+body .all .for-texts .h1-2 h1 {
+  display: flex;
+  gap: 20px;
+  color: #3d8268;
+  font-family: "Libre Baskerville", serif;
+}
+body .all .for-texts .h1-2 h1 span {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  color: #d5d5d5;
+}
+body .all .for-texts .button-1 {
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+body .all .for-texts .button-1 button {
+  background: #3d8268;
+  width: 270px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+}
+body .all .for-texts .button-1 a {
+  text-decoration: none;
+}
+body .all .for-texts .button-1 a p {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
